@@ -41,7 +41,7 @@ for t at all.
 Checked this by computing the distance between consecutive rows:
 
 ```
-consecutive-row distances -> min: 0.021, max: 52.689, mean: 18.625, std: 12.526
+min: 0.021, max: 52.689, mean: 18.625, std: 12.526
 ```
 
 If the data were t-ordered, consecutive points should sit close together
