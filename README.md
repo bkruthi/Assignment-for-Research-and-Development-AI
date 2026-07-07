@@ -143,7 +143,7 @@ near the top of that 100 point range.
 - if the curve looped back on itself closely, points could snap to the wrong
   branch of the curve during fitting but it wasn't an issue here but worth noting
 - fit quality depends on how densely i sampled the candidate curve during
-  optimization - too sparse and residuals get inflated for reasons that have
+  optimization with too sparse and residuals get inflated for reasons that have
   nothing to do with the actual parameters being wrong
   
 ## references 
