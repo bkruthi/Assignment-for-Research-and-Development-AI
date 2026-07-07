@@ -104,8 +104,8 @@ residuals from the fitting step, since that used nearest neighbour distance
 (euclidean, and against the raw scattered points) which isn't quite the same
 metric they said they'd use.
 
-L1 here just means: pick a bunch of t values spaced evenly across (6, 60),
-plug them into the expected curve and my predicted curve separately, and add
+Here L1 means: picking a bunch of t values spaced evenly across (6, 60),
+putting them into the expected curve and my predicted curve separately, and add
 up `|x_expected - x_predicted| + |y_expected - y_predicted|` for each t, then
 average. No square roots involved like euclidean, just plain absolute
 differences per axis.
