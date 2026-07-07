@@ -44,8 +44,8 @@ Checked this by computing the distance between consecutive rows:
 min: 0.021, max: 52.689, mean: 18.625, std: 12.526
 ```
 
-If the data were t-ordered, consecutive points should sit close together
-since the curve is continuous and the distances should be small and smooth. Instead
+If the data was t-ordered, consecutive points must be closer 
+since the curve is continuous and the distances must be small and smooth. Instead
 they're all over the place, so the rows are shuffled. That rules out plain
 regression and means this has to be seen as fitting a curve to an
 unordered point cloud and i know the points lie somewhere on the curve,
